@@ -279,6 +279,10 @@ void setColorConversion709( GLfloat conversionMatrix[9] )
     [audioOutput setSampleBufferDelegate:self queue:audioProcessingQueue];
     
     [_captureSession commitConfiguration];
+    
+    ///
+    addedAudioInputsDueToEncodingTarget |= [self addAudioInputsAndOutputs];
+    
     return YES;
 }
 
@@ -908,10 +912,10 @@ void setColorConversion709( GLfloat conversionMatrix[9] )
 {
     if (newValue) {
         /* Add audio inputs and outputs, if necessary */
-        addedAudioInputsDueToEncodingTarget |= [self addAudioInputsAndOutputs];
+//        addedAudioInputsDueToEncodingTarget |= [self addAudioInputsAndOutputs];
     } else if (addedAudioInputsDueToEncodingTarget) {
         /* Remove audio inputs and outputs, if they were added by previously setting the audio encoding target */
-        [self removeAudioInputsAndOutputs];
+//        [self removeAudioInputsAndOutputs];
         addedAudioInputsDueToEncodingTarget = NO;
     }
     
