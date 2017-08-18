@@ -17,7 +17,7 @@
     NSImage *image = [NSImage imageNamed:@"lookup_foggy_night.png"];
 #endif
     
-    NSAssert(image, @"To use GPUImageAmatorkaFilter you need to add lookup_foggy_night.png from GPUImage/framework/Resources to your application bundle.");
+    NSAssert(image, @"To use GPUImageFoggyNightFilter you need to add lookup_foggy_night.png from GPUImage/framework/Resources to your application bundle.");
     
     lookupImageSource = [[GPUImagePicture alloc] initWithImage:image];
     GPUImageLookupFilter *lookupFilter = [[GPUImageLookupFilter alloc] init];

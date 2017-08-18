@@ -131,6 +131,7 @@
 #import "GPUImageLateSunSetFilter.h"
 #import "GPUImageSoftWarmingFilter.h"
 #import "GPUImageWildBirdFilter.h"
+#import "GPUImage3DLUTFilter.h"
 #import "GPUImageMissEtikateFilter.h"
 #import "GPUImageSoftEleganceFilter.h"
 #import "GPUImageAddBlendFilter.h"

@@ -137,6 +137,7 @@ FOUNDATION_EXPORT const unsigned char GPUImageFrameworkVersionString[];
 #import <GPUImage/GPUImageLateSunSetFilter.h>
 #import <GPUImage/GPUImageSoftWarmingFilter.h>
 #import <GPUImage/GPUImageWildBirdFilter.h>
+#import <GPUImage/GPUImage3DLUTFilter.h>
 #import <GPUImage/GPUImageMissEtikateFilter.h>
 #import <GPUImage/GPUImageSoftEleganceFilter.h>
 #import <GPUImage/GPUImageAddBlendFilter.h>

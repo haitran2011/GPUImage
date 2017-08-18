@@ -17,7 +17,7 @@
     NSImage *image = [NSImage imageNamed:@"lookup_filmstock.png"];
 #endif
     
-    NSAssert(image, @"To use GPUImageAmatorkaFilter you need to add lookup_filmstock.png from GPUImage/framework/Resources to your application bundle.");
+    NSAssert(image, @"To use GPUImageFilmStockFilter you need to add lookup_filmstock.png from GPUImage/framework/Resources to your application bundle.");
     
     lookupImageSource = [[GPUImagePicture alloc] initWithImage:image];
     GPUImageLookupFilter *lookupFilter = [[GPUImageLookupFilter alloc] init];
