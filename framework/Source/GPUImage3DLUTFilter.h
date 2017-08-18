@@ -10,6 +10,6 @@
     GPUImagePicture *lookupImageSource;
 }
 
-- (id)initWith3DLUTImage:(UIImage *)image;
+- (id)initWithImage:(UIImage *)image;
 
 @end

@@ -4,7 +4,7 @@
 
 @implementation GPUImage3DLUTFilter
 
-- (id)initWith3DLUTImage:(UIImage *)image
+- (id)initWithImage:(UIImage *)image
 {
     if (!(self = [super init]))
     {
