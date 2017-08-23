@@ -175,3 +175,4 @@
 #import "GPUImageColourFASTFeatureDetector.h"
 #import "GPUImageColourFASTSamplingOperation.h"
 #import "YUGPUImageHighPassSkinSmoothingFilter.h"
+#import "YUGPUImageStillImageHighPassFilter.h"
