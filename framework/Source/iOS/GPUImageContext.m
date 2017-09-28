@@ -252,6 +252,7 @@ static void *openGLESContextQueueKey;
     return context;
 }
 
+- (void)dealloc { CFRelease(_coreVideoTextureCache); }
 
 #pragma mark -
 #pragma mark Manage fast texture upload
